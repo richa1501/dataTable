@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link type="text/css" href="style.css" rel="stylesheet">        
+    <title>Data Table</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="wrapper">
+    <section class="header_bar">   
+        <div class="top-bar">
+            <span> User Data Information For 2023-2024 </span>
+            <ul>
+                <li><a href="#"><img class="icons" src="./Assets/icons/facebook_2168281.png"></a></li>
+                <li><a href="#"><img class="icons" src="./Assets/icons/instagram_1384015.png"></a></li>
+                <li><a href="#"><img class="icons" src="./Assets/icons/twitter_4494465.png"></a></li>               
+            </ul>            
+        </div>
+        <header>
+        <div class="logo"><a>Logo</a></div>
+        <nav class="menu">
+            
+            <ul class="navbar">
+                <li class="nav-item"><a class="nav-link" href="#">Data Table</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Graphical View</a></li>
+            </ul>
+        </nav>
+        <button>Export</button>
+    </header>        
+    </section>
+    <section class="main-content">
+      <div class="container">
+    <h2>User Data Table</h2>
+    <table  class="styled-table">
+   <thead>
+    <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>username</th>
+    <th>email</th>
+   </tr>
+</thead>
+<tbody id="tableBody" class="active-row"></tbody>
+  
+    </table>
+</div>
+    </section>
+    <section class="footer_bar">
+        <footer>
+        <a>@copyRight</a>
+    </footer>
+    </section>
+</div>
+</body>
+</html>

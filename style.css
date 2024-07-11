@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"poppins";
+    font-size: 15px;
+}
+.wrapper{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+a{
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+.header_bar,.footer_bar{
+    height:40px;
+
+}
+.icons{
+    height:25px;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #ef4b3f;
+}
+.top-bar ul{
+    list-style: none;
+    display: flex;    
+}
+.top-bar li{
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: black;
+}
+.logo{
+    cursor: pointer;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+}
+.navbar .nav-item{
+    padding: 0px 10px;
+    transition:all 0.3s ease;
+}
+.navbar .nav-item .nav-link:hover{
+    color:#ef4b3f;
+}
+button{
+    padding: 3px 5px;
+    background-color:whitesmoke;  
+    border:2px solid #ef4b3f;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color:#ef4b3f;
+    border-color: whitesmoke;
+}
+/* main Content */
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+.container{
+    
+}
+.styled-table {
+    border-collapse: collapse; 
+    font-size: 0.9em;   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
